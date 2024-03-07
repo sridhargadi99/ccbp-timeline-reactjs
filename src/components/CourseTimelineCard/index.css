@@ -1,0 +1,99 @@
+/* Write your CSS here */
+.course-time-line-card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-duration-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .course-duration-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.course-title-style {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .course-title-style {
+    font-size: 28px;
+  }
+}
+.clock-duration-container {
+  display: flex;
+  align-items: center;
+}
+.clock-style {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .clock-style {
+    height: 30px;
+    width: 30px;
+  }
+}
+.duration-style {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 700;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .duration-style {
+    font-size: 22px;
+  }
+}
+.description-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .description-style {
+    font-size: 23px;
+  }
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0px;
+}
+@media screen and (min-width: 768px) {
+  .list-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+.list-style {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 768px) {
+  .list-style {
+    margin-right: 20px;
+  }
+}
+.name-style {
+  background-color: lightblue;
+  padding: 8px 12px 8px 12px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 700;
+  color: #1e293b;
+  border-radius: 8px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .name-style {
+    font-size: 18px;
+  }
+}

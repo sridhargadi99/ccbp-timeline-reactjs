@@ -1,0 +1,88 @@
+/* Write your CSS here */
+.project-time-line-card-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.project-image-style {
+  height: 150px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .project-image-style {
+    height: 300px;
+  }
+}
+.project-time-container {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .project-time-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.project-heading-style {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 700;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .project-heading-style {
+    font-size: 28px;
+  }
+}
+.calendar-hour-container {
+  display: flex;
+  align-items: center;
+}
+.calendar-style {
+  height: 25px;
+  width: 25px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .calendar-style {
+    height: 30px;
+    width: 30px;
+  }
+}
+.hour-style {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 700;
+  color: #171f46;
+}
+@media screen and (min-width: 768px) {
+  .hour-style {
+    font-size: 22px;
+  }
+}
+.project-description-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .project-description-style {
+    font-size: 23px;
+  }
+}
+.anchor-style {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #0967d2;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+@media screen and (min-width: 768px) {
+  .anchor-style {
+    font-size: 20px;
+  }
+}
